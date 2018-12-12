@@ -3,12 +3,22 @@
 ## 2018-11-29
 ### 工作界面
 ### 1,待办数量接口
-    接口：/mobileBpmController/getToDoTasksNumsByUserId
+<del>接口：/mobileBpmController/getToDoTasksNumsByUserId</del>
+<del>参数：</del>
+<del>random:随机数</del>
+<del>userId:用户ID</del>
+<del>返回：{"result":[{"num":"1","nums":0,"tasktype":"1"}],"flag":"1"}</del>
+<del>循环遍历result 叠加 num 为最终数量</del>
+
+#### 上面接口替换为新的接口 添加邮件未读数量  以及弹性显示其他功能数量
+    接口：/mobileBpmController//mobileBpmController/findTaskNum
     参数：
-    random:随机数
     userId:用户ID
-    返回：{"result":[{"num":"1","nums":0,"tasktype":"1"}],"flag":"1"}
-    循环遍历result 叠加 num 为最终数量
+    返回：[{"taskId":"4123dasdsa2asd12","taskNum":1},{"taskId":"asdasdqwda123123","taskNum":11}]
+    taskId 功能ID
+    taskNum 功能未读数量
+    
+    
 ### 2,云邮功能
     需求：点进云邮界面之后，返回按钮直接返回到外层界面，不需要goBack，其他跳转不影响。
     实现：监听跳转URL，如果URL中包含"mobileMailController"就是云邮界面，做相应处理即可。
