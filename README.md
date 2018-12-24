@@ -3,14 +3,7 @@
 ### 2018-11-29
     工作界面
     1,待办数量接口
-<del>接口：/mobileBpmController/getToDoTasksNumsByUserId</del>
-<del>参数：</del>
-<del>random:随机数</del>
-<del>userId:用户ID</del>
-<del>返回：{"result":[{"num":"1","nums":0,"tasktype":"1"}],"flag":"1"}</del>
-<del>循环遍历result 叠加 num 为最终数量</del>
-
-    上面接口替换为新的接口 添加邮件未读数量  以及弹性显示其他功能数量
+    添加邮件未读数量  以及弹性显示其他功能数量
     接口：/mobileBpmController//mobileBpmController/findTaskNum
     参数：
     userId:用户ID
