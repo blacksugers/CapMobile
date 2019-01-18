@@ -4,7 +4,7 @@
     工作界面
     1,待办数量接口
     添加邮件未读数量  以及弹性显示其他功能数量
-    接口：/mobileBpmController//mobileBpmController/findTaskNum
+    接口：/mobileBpmController/findTaskNum
     参数：
     userId:用户ID
     返回：[{"taskId":"4123dasdsa2asd12","taskNum":1},{"taskId":"asdasdqwda123123","taskNum":11}]
@@ -32,4 +32,4 @@
     
 ### 2019-01-07
     添加工作圈未读图标功能
-    添加到接口：/mobileBpmController//mobileBpmController/findTaskNum中
+    添加到接口：/mobileBpmController/findTaskNum中
