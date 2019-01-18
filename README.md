@@ -31,4 +31,5 @@
     3.审批提交建议默认勾选第一条，可以建议一次点击操作
     
 ### 2019-01-07
-    
+    添加工作圈未读图标功能
+    添加到接口：/mobileBpmController//mobileBpmController/findTaskNum中
